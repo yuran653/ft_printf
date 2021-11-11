@@ -45,7 +45,7 @@ void	ft_recurs_hex(unsigned long long num, char type, int *count)
 	}
 }
 
-static void	ft_putnbrhex_pf(long long num, char type, int *count)
+void	ft_putnbrhex_pf(long long num, char type, int *count)
 {
 	if (type == 'd' || type == 'i' || type == 'u')
 	{
@@ -73,7 +73,7 @@ static void	ft_putnbrhex_pf(long long num, char type, int *count)
 	}
 }
 
-static void	ft_print_arg(va_list args, char type, int *count)
+void	ft_print_arg(va_list args, char type, int *count)
 {
 	char	s;
 	char	*str;
